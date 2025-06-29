@@ -47,7 +47,7 @@ Una aplicación demo avanzada que permite que múltiples modelos de IA (GPT-4o-m
 ### 📦 **Paso 1: Descarga del Proyecto**
 ```bash
 # Clona el repositorio
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/EstebanDevJR/Demo_LLM_Conversacionales.git
 cd IAs-conversacionales-demo
 
 # O descarga directamente y extrae los archivos
