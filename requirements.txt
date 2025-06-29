@@ -1,0 +1,7 @@
+openai>=1.0.0
+anthropic>=0.18.0
+gradio>=4.0.0
+elevenlabs>=0.2.26
+python-dotenv>=1.0.0
+
+# Nota: DeepSeek usa la misma interfaz que OpenAI, por lo que no requiere una librería adicional 

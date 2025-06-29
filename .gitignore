@@ -1,0 +1,328 @@
+# ==============================================================================
+# 🚀 GITIGNORE PARA CONVERSACIÓN ENTRE IAs
+# ==============================================================================
+
+# 🔐 ARCHIVOS SENSIBLES Y CONFIGURACIÓN
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.production
+.env.test
+*.env
+config.ini
+secrets.json
+
+# 🔑 API KEYS Y CREDENCIALES
+api_keys.txt
+credentials.json
+*.key
+*.pem
+*.p12
+
+# 🐍 PYTHON
+# ------------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# 🎵 ARCHIVOS DE AUDIO Y MULTIMEDIA
+# ------------------------------------------------------------------------------
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.ogg
+*.wma
+audio_files/
+temp_audio/
+generated_audio/
+downloads/
+
+# 📱 GRADIO Y WEB
+# ------------------------------------------------------------------------------
+gradio_cached_examples/
+flagged/
+*.gradio
+.gradio/
+
+# 📝 LOGS Y TEMPORALES
+# ------------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+tmp/
+cache/
+.cache/
+
+# 💻 SISTEMA OPERATIVO
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 🛠️ EDITORES E IDEs
+# ------------------------------------------------------------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.ftpconfig
+.sftpconfig
+
+# 📊 DATOS Y BASES DE DATOS
+# ------------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+data/
+datasets/
+*.csv
+*.json
+*.xlsx
+*.pickle
+
+# 🔧 HERRAMIENTAS DE DESARROLLO
+# ------------------------------------------------------------------------------
+# Node.js (si se usa)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# 🎯 ESPECÍFICOS DEL PROYECTO
+# ------------------------------------------------------------------------------
+# Archivos de prueba
+test_audio.mp3
+prueba_*
+test_*
+demo_*
+
+# Backups
+*.bak
+*.backup
+*.old
+backup/
+
+# Archivos de configuración local
+local_config.py
+dev_settings.py
+
+# Archivos de salida
+output/
+results/
+exports/
+
+# ==============================================================================
+# 📋 NOTAS:
+# - Este .gitignore está optimizado para proyectos de IA con APIs
+# - Excluye automáticamente archivos sensibles como .env y API keys
+# - Incluye patrones específicos para audio, logs y archivos temporales
+# - Compatible con diferentes sistemas operativos y editores
+# ============================================================================== 
